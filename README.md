@@ -1,5 +1,5 @@
 # Grafana Panel Graph
-This Terraform module provides a basic template for creating Graph panels for use within a Grafana dash-board.  
+This Terraform module provides a basic template for creating Graph panels for use within a Grafana [synapsestudios/terraform-grafana-dashboard](https://github.com/synapsestudios/terraform-grafana-dashboard).  
 
 
 Example Usage:
@@ -43,7 +43,7 @@ module "grafana_alb_request_response" {
 
 | Name | Version |
 |------|---------|
-| terraform | ~> 0.12.6 |
+| terraform | ~> 0.12.29 |
 
 ## Providers
 
