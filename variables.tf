@@ -143,7 +143,7 @@ variable "null_point_mode" {
 
 # Series Overrides
 variable "series_overrides" {
-  # type        = list
+  type        = any
   description = "List of maps containing time seriies overrides."
   default     = []
 }
